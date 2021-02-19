@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title>Bot | FAQ</title>
+	    <link rel="stylesheet" type="text/css" href="style.css">
+	    <link rel="icon" type="image/png" href="./image/icon.jpg">
+	    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    </head>
+    <body>	
+        <body>
+            <div class="navbar" id="topNavbar">
+            <a href="index.html">Главное</a>
+            <a href="commands.html">Команды</a>
+            <a href="faq.html" class="active">FAQ</a>
+            <a href="https://discord.gg/">Поддержка</a>
+        </div>
+        <script>
+            function myFunction() {
+                var id = document.getElementById("topNavbar");
+                if (id.className === "navbar") {
+                    id.className += " responsive";
+                } else {
+                    id.className = "navbar";
+                };
+            };
+        </script>
+        <div align="center" class="mainText">
+            <h1>Команды</h1>
+            <p>1. ban - Забанить</p>
+            <p>2. mute - Замутить</p>
+            <p>3. clear - Очистить</p>
+        </div>
+</body>
+</html>
